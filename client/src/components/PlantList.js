@@ -38,8 +38,8 @@ constructor() {
               <p>{plant.description}</p>
               <div className="plant-bottom-row">
                 <p>${plant.price}</p>
-                <p>☀️ {plant.light}</p>
-                <p>💦 {plant.watering}x/month</p>
+                <p><span role="img" aria-label='sun'>☀️</span> {plant.light}</p>
+                <p><span role="img" aria-label='watering'>💦</span> {plant.watering}x/month</p>
               </div>
               <button
                 className="plant-button"
